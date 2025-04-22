@@ -89,6 +89,37 @@ int main(){
     printf("A densidade populacional é: %f\n", densidade2);
     printf("O pib per capita é: %f\n", percapita2);
 
+
+    if (populacao > populacao2)
+     printf("População: Carta 1 ganhou\n");
+    else
+     printf("População: Carta 2 ganhou\n"); 
+
+    if (area > area2)
+     printf("Area: Carta 1 ganhou\n");
+    else
+     printf("Area: Carta 2 ganhou\n");
+     
+    if (pib > pib2)
+     printf("PIB: Carta 1 ganhou\n");
+    else
+     printf("PIB: Carta 2 ganhou\n");
+
+    if (turistica > turistica2)
+     printf("Ponto turistico: Carta 1 ganhou\n");
+    else
+     printf("Ponto turistico: Carta 2 ganhou\n");
+
+     if (densidade < densidade2)
+     printf("Densidade: Carta 1 ganhou\n");
+    else
+     printf("Densidade: Carta 2 ganhou\n");
+     
+     if (percapita > percapita2)
+     printf("PIB Percapita: Carta 1 ganhou\n");
+    else
+     printf("PIB Percapita: Carta 2 ganhou\n"); 
+
      
 
 
